@@ -1,0 +1,8 @@
+.local/
+.objects/
+.project/
+.settings/
+.tmh/
+Exceptions_Screenshots/
+Documentation/
+LICENSE
