@@ -3,6 +3,8 @@
 .project/
 .settings/
 .tmh/
+.screenshots/
+.storage/
 Exceptions_Screenshots/
 Documentation/
 LICENSE
