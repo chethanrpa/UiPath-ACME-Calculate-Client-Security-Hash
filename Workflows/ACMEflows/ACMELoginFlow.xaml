@@ -105,26 +105,26 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ACMELoginFlow" sap:VirtualizedContainerService.HintSize="1199.6000000000001,862.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ACMELoginFlow" sap:VirtualizedContainerService.HintSize="2091.2,2727.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message : Login Process - start" sap:VirtualizedContainerService.HintSize="483.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Login process - start&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="LoginScreen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,499.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="Always" ScopeGuid="5cadd0cb-e457-4a3c-90d1-f6ce3523a3d9" Version="V2" WindowResize="Maximize">
+    <ui:LogMessage DisplayName="Log Message : Login Process - start" sap:VirtualizedContainerService.HintSize="2091.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Login process - start&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="LoginScreen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="2091.2,2364" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="Always" ScopeGuid="5cadd0cb-e457-4a3c-90d1-f6ce3523a3d9" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,250.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="2057.6,2115.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'chrome.exe ACME'" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="Activate_1">
+            <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'chrome.exe ACME'" sap:VirtualizedContainerService.HintSize="2024,139.2" sap2010:WorkflowViewState.IdRef="Activate_1">
               <ui:Activate.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="fa6342c0-c470-4e70-b015-49226594f7ad" InformativeScreenshot="b3f6aff4e463d74014c609f30204180c">
                   <ui:Target.TimeoutMS>
@@ -136,9 +136,9 @@
                 </ui:Target>
               </ui:Activate.Target>
             </ui:Activate>
-            <uix:NCheckState DisplayName="Check App State 'ACMELoginButton'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,49.6" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V4">
+            <uix:NCheckState DisplayName="Check App State 'ACMELoginButton'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="2024,1914.4" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V4">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="985.6,1629.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="985.6,1631.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="strACMEUserName" />
                     <Variable x:TypeArguments="ss:SecureString" Name="secureACMEPasscode" />
@@ -207,19 +207,19 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NCheckState DisplayName="Check App State 'ACMELoginButton'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="952,594.4" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="5cadd0cb-e457-4a3c-90d1-f6ce3523a3d9" Timeout="30" Version="V4">
+                  <uix:NCheckState DisplayName="Check App State 'ACMELoginButton'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="952,596" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="5cadd0cb-e457-4a3c-90d1-f6ce3523a3d9" Timeout="30" Version="V4">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,227.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,230.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message : ACME Login is successful" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;ACME login is successful&quot;]" />
+                        <ui:LogMessage DisplayName="Log Message : ACME Login is successful" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;ACME login is successful&quot;]" />
                       </Sequence>
                     </uix:NCheckState.IfExists>
                     <uix:NCheckState.IfNotExists>
-                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,351.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,352.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -242,13 +242,13 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,111.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="985.6,697.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NCheckState DisplayName="Check App State 'ACMEValidateDashboard'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,49.6" sap2010:WorkflowViewState.IdRef="NCheckState_3" Version="V4">
+                  <uix:NCheckState DisplayName="Check App State 'ACMEValidateDashboard'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="952,636" sap2010:WorkflowViewState.IdRef="NCheckState_3" Timeout="30" Version="V4">
                     <uix:NCheckState.IfExists>
                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,230.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
                         <sap:WorkflowViewStateService.ViewState>
@@ -275,7 +275,7 @@
                     </uix:NCheckState.Target>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -287,7 +287,7 @@
               </uix:NCheckState.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -305,6 +305,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:LogMessage DisplayName="Log Message : Login Process - end" sap:VirtualizedContainerService.HintSize="483.2,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Login process - end&quot;]" />
+    <ui:LogMessage DisplayName="Log Message : Login Process - end" sap:VirtualizedContainerService.HintSize="2091.2,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Login process - end&quot;]" />
   </Sequence>
 </Activity>
